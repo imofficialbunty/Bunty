@@ -1,0 +1,81 @@
+body{
+	margin: 0;
+	padding: 0; 
+}
+.banner-area{
+	background-image: url('jai.jpg');
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+}
+header{
+	padding: 15px 60px;
+}
+.menu{
+	width: 42%;
+	float: right;
+  list-style: none;
+}
+.menu li{
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+	font-size: 13px;
+	float: left;
+}
+.menu li a{
+	text-decoration: none;
+	font-family: baloo;
+	color: #fff;
+	text-transform: uppercase;
+	transition: 1s;
+}
+.menu li a:hover{
+	color: red;
+	transition: 1s;
+}
+.logo{
+	text-decoration: none;
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Potta One', cursive;
+	padding: 20px 0;
+	width: 20%;
+	float: left;
+}
+.banner-text{
+	position: absolute;
+	top: 50%;left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	font-size: 30px;
+	transition: .9s;
+}
+.banner-text h2{
+	transition: 1s;
+}
+.banner-text h2:hover{
+	color: #FCCB03;
+	transition: 1s;
+}
+.banner-text a{
+	text-decoration: none;
+	border: 2px solid #fff;
+	font-size: 17px;
+	padding: 10px 35px;
+	color: #fff;
+	display: inline-block;
+	margin-top: 5%;
+	text-transform: uppercase;
+}
+.banner-text a:hover{
+	border-color: green;
+	border-radius:5px 5px 5px 5px; 
+	color:yellow;
+	transition: .9s; 
+}
